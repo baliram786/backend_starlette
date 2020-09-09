@@ -1,0 +1,33 @@
+Notes
+-----
+    pip, pipenv ( pip and virtualenv files internally under hood ) 
+    setup.py 
+    requirements vs pipenv vs pip
+
+    pipenv install [dep]
+    pipenv always creates package.json and package-lock.json files in the very start 
+    pipenv install --python  <version>
+    or pipenv shell  ( to also install via it )
+    pipenv install tornado
+    * pipenv run python <script>
+
+    - virtualenv ( a virtual environment managed by pip commands for installing packages..)
+        sudo  [ apt-get install / easy_install / pip install ] virtualenv 
+        - adds no-site package for virtualenv
+
+        // inflates an empty dir with initial setup files libs , scripts, pyvenv.cfg, 
+        1. virtualenv <project dir>     
+        or virtualenv venv  
+        
+
+* Web Frameworks ( Synchronous Web Frameworks - for WSGI Servers)
+    - Flask, Tornado, Pyramid, Twisted, Django
+
+ 1. Important Files 
+        - requirements.txt           #pip install -r requirements.txt
+        - setup.py               
+
+Docker Files 
+    - docker-compose.yml
+    - Dockerfile 
+    - 

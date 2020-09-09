@@ -1,0 +1,7 @@
+starlette
+uvicorn
+jinja2
+aiofiles
+SQLAlchemy
+databases[sqlite]
+python-multipart

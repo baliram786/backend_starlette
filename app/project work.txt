@@ -1,0 +1,18 @@
+
+Card Info 
+    type/slug ( on title ) , title , position , thumbnail, 
+
+[
+    Card Info, ..   
+]
+
+React js 
+    - displaying them 3 in every row y-axis
+    - display a loading spinner onto every card info 
+    - make cards reorderable and change their positions in real time 
+    - display a full scale image in the screen middle soon as the card info is clicked; dismissable on ESC keystroke
+    -  
+
+Backend
+    APIs
+        python / flask - CRUD for title, position, thumbnail image url, type/slug 
